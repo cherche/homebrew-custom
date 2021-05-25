@@ -1,4 +1,4 @@
-# Cherche Custom
+# cherche/homebrew-custom
 
 ## How do I install these formulae?
 
