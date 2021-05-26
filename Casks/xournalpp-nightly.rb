@@ -12,6 +12,6 @@ cask "xournalpp-nightly" do
 
   zap trash: [
     "~/Library/Saved Application State/com.github.xournalpp.savedState",
-    "~/.xournalpp",
+    "~/.config/xournalpp",
   ]
 end
