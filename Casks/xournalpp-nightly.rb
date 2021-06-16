@@ -1,6 +1,6 @@
 cask "xournalpp-nightly" do
-  version "1.1.0.dev-nightly.20210609"
-  sha256 "adc81cd02bb4e767ad1c4dc16fd2c1dc492ebc1374d2fcb22a4066e5791ffa52"
+  version "1.1.0.dev-nightly.20210616"
+  sha256 "db82f56bde9aed366fe6743e38a622e60531d52f9ab783c38157051952a6be1a"
 
   url "https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-#{version}-macos.zip"
   # url "https://github.com/xournalpp/xournalpp/releases/download/#{version}/xournalpp-#{version}-macos.zip"
