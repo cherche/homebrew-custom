@@ -1,9 +1,9 @@
 class AirshipperBinary < Formula
   desc "Launcher for Veloren voxel game"
   homepage "https://github.com/Songtronix/Airshipper/"
-  version "0.4.2"
-  url "https://github.com/Songtronix/Airshipper/releases/download/v#{version}/airshipper-macos.tar.gz"
-  sha256 "83dae4e0790a1123f6e32d623f2e0ef0bb1458f092bd907bd2be2159338165b2"
+  version "0.5.0"
+  url "https://github.com/veloren/Airshipper/releases/download/v#{version}/airshipper-macos.tar.gz"
+  sha256 "43f7de3b252beabb4c8060c792cb63f7f14498a81dcebc2cf68375c38c3fceb1"
 
   bottle :unneeded
 
@@ -17,7 +17,7 @@ class AirshipperBinary < Formula
     EOS
   end
 
-  zap trash: [
-    "~/Library/Application Support/airshipper/"
-  ]
+  #zap trash: [
+    #"~/Library/Application Support/airshipper/"
+  #]
 end
